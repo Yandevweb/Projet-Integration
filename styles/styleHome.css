@@ -1,0 +1,45 @@
+h1,h2,h3,h4,h5 {
+	font-size: 3em;
+}
+
+#slider1 img, .large {
+	width: 100%;
+	height: 500px;
+}
+
+.centre {
+	text-align: center;
+}
+
+.p1 {
+	font-size: 1.5em;
+}
+
+.faparagraph {
+	color: red;
+}
+
+.gri {
+	background-color: #CCCCCC;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.citation {
+	background-color: white;
+	height:180px;
+	padding:10px;
+	font-size: 1.2em;
+}
+
+#slider2 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.fond {
+	background-image: url("../images/b5.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+}
