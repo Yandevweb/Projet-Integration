@@ -19,10 +19,14 @@ h1,h2,h3,h4,h5 {
 	color: red;
 }
 
-.gri {
+.gris {
 	background-color: #CCCCCC;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.customer {
+	margin-top: 15px;
 }
 
 .citation {
@@ -33,15 +37,33 @@ h1,h2,h3,h4,h5 {
 }
 
 #carousel {
-	padding-top: 100px;
+	height: 300px;
+	padding-top: 80px;
 	padding-bottom: 100px;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+ }
 
 .fond {
 	background-image: url("../images/b5.jpg");
 	background-repeat: no-repeat;
-	width: 100%;
+	background-size: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	height: 300px;
+	color: white;
+}
+
+.btn-transapent {
+	margin-top: 15px;
+	border-color: white;
+	background: none;
+	width : 200px;
 }
 
 .imageBlock {
@@ -57,6 +79,7 @@ h1,h2,h3,h4,h5 {
 .article {
 	background-color: white;
 	padding: 10px;
+	height: 100%;
 }
 
 .grisDown {
@@ -78,6 +101,37 @@ h1,h2,h3,h4,h5 {
 }
 
 .footer {
+	height: 150px;
+	padding-top: 10px;
 	color: white;
 	background-color: #222222;
+}
+
+#copyright {
+	margin-top: 30px;
+}
+
+.socialFooter
+{
+	margin-top: 20px;
+}
+
+.feed, .feed:visited {
+	color: orange;
+}
+
+.twitter, .twitter:visited{
+	color: #7FC6BC;
+}
+
+.facebook, .facebook:visited{
+	color: #046380;
+}
+
+.pinterest, .pinterest:visited{
+	color: #B9121B;
+}
+
+.linkedin, .linkedin:visited{
+	color:#01B0F0;
 }
