@@ -78,10 +78,9 @@ h1,h2,h3,h4,h5 {
 .fond {
 	background-image: url("../images/b5.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	padding-top: 5%;
 	color: white;
-	background-color: #333B3F;
 }
 
 .textGris {
@@ -177,7 +176,7 @@ h1,h2,h3,h4,h5 {
 	border-radius:0;
 }
 
-.col-down {
+.margTop {
 	margin-top: 20px;
 }
 
