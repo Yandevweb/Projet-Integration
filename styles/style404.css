@@ -1,11 +1,11 @@
+h1 {
+	font-size: 10em;
+}
+
 .contenu {
 	text-align: center;
 	color: #333333;
 	margin-top: 300px;
-}
-
-h1 {
-	font-size: 10em;
 }
 
 .footer {
@@ -14,6 +14,7 @@ h1 {
 	width: 100%;
 	background-color: #333333;
 	padding: 10px;
-	color: white;
+	color: #CCCCCC;
 	font-size: 0.8em;
+
 }

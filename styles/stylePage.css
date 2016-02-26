@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .fond {
-	background-image: url("../images/b5.jpg");
+	background-image: url("../images/b5f.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding-top: 5%;
@@ -98,6 +98,10 @@ h1,h2,h3,h4,h5 {
 	background: none;
 	width : 200px;
 	border-radius:0;
+}
+
+.rond {
+	border-radius: 100%;
 }
 
 .btn-us {

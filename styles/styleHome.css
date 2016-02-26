@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5 {
 }
 
 #barUp {
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #CCCCCC;
 	padding-left: 0.5px;
 	padding-right: 0.5px;
 }
@@ -24,8 +24,8 @@ h1,h2,h3,h4,h5 {
 }
 
 .nav-bord {
-	border-left: 1px solid grey;
-	border-right: 1px solid grey;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
 	margin-left: -0.5px;
 	margin-right: -0.5px;
 }
@@ -49,25 +49,9 @@ h1,h2,h3,h4,h5 {
 #slider {
 	position: relative;
 	height: 500px;
-	background-image: url("../images/b5.jpg");
+	background-image: url("../images/slide-02.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-}
-
-#slider-woman {
-	position: absolute;
-	max-height: 350px;
-	max-width: 200px;
-	width: 25%;
-	bottom: 0px;
-	margin-left: 150px;
-}
-
-#slider-bubbles {
-	position: absolute;
-	width: 10%;
-	left: 150px;
-	top: 100px;
 }
 
 .centre {
@@ -90,6 +74,11 @@ h1,h2,h3,h4,h5 {
 
 .customer {
 	margin-top: 15px;
+}
+
+
+.rond {
+	border-radius: 100%;
 }
 
 .citation {
@@ -146,7 +135,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .fond {
-	background-image: url("../images/b5.jpg");
+	background-image: url("../images/b5f.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding-top: 5%;
@@ -216,6 +205,10 @@ h1,h2,h3,h4,h5 {
 
 .margTop {
 	margin-top: 20px;
+}
+
+.margBottom {
+	margin-bottom: 20px;
 }
 
 .col-down {
